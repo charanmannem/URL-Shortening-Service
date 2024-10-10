@@ -5,7 +5,7 @@ URL Shortening Service is a web application that allows users to shorten long UR
 
 ## Installation
 
-1. Clone the repository:
+1.Clone the repository:
    git clone https://github.com/charanmannem/URL-Shortening-Service.git
    <br>
 2.Navigate to the project directory:
