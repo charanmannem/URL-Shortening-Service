@@ -28,10 +28,10 @@ async function handleUserLogin(req, res) {
   
   const token=setUser(user);
   res.cookie("uid", token, { 
-    maxAge: 120000,  // Expires in 1 hour
-    httpOnly: true,   // Prevents client-side access to the cookie
-    secure: true,     // Ensures cookie is sent only over HTTPS
-    sameSite: "Strict" // Prevents cross-site request
+    maxAge: 120000,  
+    httpOnly: true,   
+    secure: true,     
+    sameSite: "Strict" 
   });  
   return res.redirect("/");
 }
